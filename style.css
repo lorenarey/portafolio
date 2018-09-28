@@ -4,7 +4,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Oswald', sans-serif;
     background-color: rgb(0,0,0);
-    background-image:url(img/fondo-grad-1.png);
+    background-image:url(img/texture-portfolio.png);
 }
 
 .logo-inner {
@@ -24,15 +24,17 @@ body {
 
 .title-inner {
   color: #1A99CA;
-  font-size: 38px;
-  line-height: 1.25;
+  font-size: 32px;
+  line-height: 1.45;
+  text-align: center;
 }
 
 .text-inner {
   font-size: 22px;
   color: #ffff;
   padding-bottom: 30px;
-
+  font-family: 'Abel', sans-serif;
+  text-align : center;
 }
 
 
@@ -166,6 +168,7 @@ body {
   box-sizing: border-box;
   padding: 30px;
   background-color: #fff;
+  font-family: 'Abel', sans-serif;
 }
 
 .portfolio-image img {
@@ -177,6 +180,12 @@ body {
   background-size: cover;
   background-position: center center;
   height: 100vh;
+}
+
+p {
+  text-align : justify;
+  font-size: 14px;
+  color: rgb(83, 83, 83)
 }
 
 .iconlink {
@@ -208,6 +217,10 @@ body {
     padding: 0 80px;
     box-sizing: border-box;
 
+  }
+
+  .about {
+    font-size: 14px
   }
 
   .contact {
