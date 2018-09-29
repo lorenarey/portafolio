@@ -40,28 +40,29 @@ body {
 
 .button {
   background-color: #1A99CA;
+  border:solid 2px #1A99CA  ;
   display: inline-block;
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
   margin: 10px;
   min-width: 80px;
+  border-radius: 60px;
   position: relative;
-  transition:all 0.4s ease-in-out;  
+  transition:all 0.8s ease-in-out;  
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
 }
 
 .button:hover {
-  background-color: #ffc402;
+  background-color:#ffff;
+  border:solid 2px #000 ;
   border-radius: 60px;
-  text-align: left;
 }
 
 .button span {
   display: inline-block;
-  transform: translate3d(0, 0, 0);
   transition:all 0.4s ease-in-out;
   vertical-align: middle;
   color: rgb(255, 255, 255);
@@ -69,22 +70,10 @@ body {
 
 .button:hover span {
   color:rgb(5, 5, 5);
-  transform: translate3d(-20%, 0, 0);
 }
 
-.button::after {
-  content: '→';
-  color:rgb(5, 5, 5);
-  display: inline-block;
-  opacity: 0;
-  transform: translate3d(0, 0, 0);
-  transition:all 0.4s ease-in-out;
-  width: 0;
-}
-
-.button:hover::after {
+.button:hover{
   opacity: 1;
-  transform: translate3d(40%, 0, 0);
   width: auto;
 }
 
@@ -171,7 +160,7 @@ body {
   font-family: 'Abel', sans-serif;
 }
 
-.portfolio-image img {
+.portfolio-image {
   width: 100%;
 }
 
@@ -186,6 +175,12 @@ p {
   text-align : justify;
   font-size: 14px;
   color: rgb(83, 83, 83)
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
 }
 
 .iconlink {
@@ -207,7 +202,6 @@ p {
   
   .portfolio-image,
   .portfolio-description {
-    height: 100vh;
     width: 50%;
     overflow: hidden;
     align-items: center;
