@@ -40,7 +40,7 @@ body {
 
 .button {
   background-color: #1A99CA;
-  border:solid 2px #1A99CA  ;
+  border:solid 2px #1A99CA;
   display: inline-block;
   padding: 10px;
   padding-left: 40px;
@@ -160,7 +160,7 @@ body {
   font-family: 'Abel', sans-serif;
 }
 
-.portfolio-image {
+.portfolio-image img {
   width: 100%;
 }
 
@@ -182,10 +182,10 @@ a {
   text-decoration: none;
   vertical-align: middle;
 }
-
-.iconlink {
- 
+.skills {
+  text-align: center;
 }
+
 
 
 @media screen and (min-width: 700px) {
@@ -202,6 +202,7 @@ a {
   
   .portfolio-image,
   .portfolio-description {
+    height: 100vh;
     width: 50%;
     overflow: hidden;
     align-items: center;
@@ -210,18 +211,28 @@ a {
     flex-direction: column;
     padding: 0 50px;
     box-sizing: border-box;
-
   }
 
   .about {
-    font-size: 14px
+    font-size: 14px;
+    height: auto;
   }
 
   .contact {
     width: 100%;
   }
 
+  .contact  p {
+    margin: 0 0 20px;
+  }  
 
+  .contact-info img {
+    vertical-align: middle;
+  }
+
+  .contact-info span.phone {
+    margin-right: 20px;
+  }  
 }
 
 @media screen and (max-height: 450px) {
