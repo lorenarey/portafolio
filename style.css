@@ -77,6 +77,10 @@ body {
   width: auto;
 }
 
+.buttons-i {
+  text-align: center;
+}
+
 .overlay {
   height: 100%;
   width: 0;
@@ -162,6 +166,7 @@ body {
 
 .portfolio-image img {
   width: 100%;
+  text-align: center;
 }
 
 .portfolio-image-1 {
@@ -182,8 +187,40 @@ a {
   text-decoration: none;
   vertical-align: middle;
 }
-.skills {
+
+.mail {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+
+}
+
+.contact {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
   text-align: center;
+  padding: 10px;
+}
+
+
+.icon-mail {
+  vertical-align: middle;
+}
+
+.contactp {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Abel', sans-serif;
+}
+
+.thank {
+  text-align: center;
+  font-size: 16px;
+}
+
+.skills {
+ 
 }
 
 
@@ -220,6 +257,15 @@ a {
 
   .contact {
     width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    box-sizing: border-box;
+
   }
 
   .contact  p {
@@ -233,7 +279,15 @@ a {
   .contact-info span.phone {
     margin-right: 20px;
   }  
+
+  
+.portfolio-image img {
+  width: auto;
 }
+
+}
+
+
 
 @media screen and (max-height: 450px) {
   .overlay a {
