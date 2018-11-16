@@ -244,6 +244,13 @@ h2 {
   color: #313131
 }
 
+.amable {
+  color: rgb(122, 122, 122);
+  font-size: 14px;
+  line-height: 1.25;
+  font-family: 'Abel', sans-serif;
+  text-decoration: underline;
+}
 
 
 
